@@ -1,41 +1,41 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark px-2">
-    <div class="side-nav-button p-2 me-3 text-light">
+    <div class="side-nav-button p-2 me-3 text-light" (click)="toggleSideNav()">
         <i class="fa-solid fa-bars"></i>
     </div>
-    <a class="navbar-brand px-4" href="#">Dashboard</a>
+    <a class="navbar-brand px-4" href="#">Foodie Adda</a>
 
     <div class="navbar-collapse">
-   <ul class="navbar-nav me-auto">
+<ul class="navbar-nav me-auto">
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle"  href="#" role="button" 
-    data-bs-toggle="dropdown">Menu</a>
+    <a class="nav-link dropdown-toggle" href="#" role="button"
+    data-bs-toggle="dropdown">Food</a>
     <ul class="dropdown-menu dropdown-menu-dark">
-        <li><a class="dropdown-item" href="#">child 1</a></li>
-        <li><a class="dropdown-item" href="#">child 2</a></li>
-        <li><a class="dropdown-item" href="#">child 3</a></li>
+        <li><a class="dropdown-item" href="#">Veg Items</a></li>
+        <li><a class="dropdown-item" href="#">Non-Veg</a></li>
+        <li><a class="dropdown-item" href="#">BreakFast</a></li>
     </ul>
     </li>
 
     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle"  href="#" role="button" 
-        data-bs-toggle="dropdown">Menu</a>
+        <a class="nav-link dropdown-toggle" href="#" role="button"
+        data-bs-toggle="dropdown">Juice</a>
         <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">child 1</a></li>
-            <li><a class="dropdown-item" href="#">child 2</a></li>
-            <li><a class="dropdown-item" href="#">child 3</a></li>
+            <li><a class="dropdown-item" href="#">Lemon Juice</a></li>
+            <li><a class="dropdown-item" href="#">Apple Juice</a></li>
+            <li><a class="dropdown-item" href="#">Banana SHake</a></li>
         </ul>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  href="#" role="button" 
-            data-bs-toggle="dropdown">Menu</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown">Snacks</a>
             <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">child 1</a></li>
-                <li><a class="dropdown-item" href="#">child 2</a></li>
-                <li><a class="dropdown-item" href="#">child 3</a></li>
+                <li><a class="dropdown-item" href="#">Samosa</a></li>
+                <li><a class="dropdown-item" href="#">Chips</a></li>
+                <li><a class="dropdown-item" href="#">Mixtures</a></li>
             </ul>
             </li>
-   </ul>
+</ul>
     </div>
     <form class="d-flex me-5">
         <input class="form-control me-2" type="search" placeholder="Search">
